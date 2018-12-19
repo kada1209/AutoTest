@@ -3,7 +3,7 @@
 <suite name="thread" parallel="methods" thread-count="20">
     <test name="threadTest">
         <classes>
-            <class name="multithreading.ThreadOnXml"/>
+            <class name="testngStudy.multithreading.ThreadOnXml"/>
         </classes>
     </test>
 </suite>

@@ -1,6 +1,5 @@
-package paramer;
+package testngStudy.paramer;
 
-import org.testng.annotations.ObjectFactory;
 import org.testng.annotations.Test;
 
 import java.lang.reflect.Method;

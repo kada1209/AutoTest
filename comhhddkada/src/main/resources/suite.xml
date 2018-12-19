@@ -4,14 +4,14 @@
 <suite name="test">
     <test name="login">
         <classes>
-            <class name="suite.suiteConfig"/>
-            <class name="suite.loginTest"/>
+            <class name="testngStudy.suite.suiteConfig"/>
+            <class name="testngStudy.suite.loginTest"/>
         </classes>
     </test>
     <test name="pay">
         <classes>
-            <class name="suite.suiteConfig"/>
-            <class name="suite.payTest"/>
+            <class name="testngStudy.suite.suiteConfig"/>
+            <class name="testngStudy.suite.payTest"/>
         </classes>
     </test>
 

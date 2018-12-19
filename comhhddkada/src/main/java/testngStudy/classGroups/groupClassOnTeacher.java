@@ -1,4 +1,4 @@
-package classGroups;
+package testngStudy.classGroups;
 
 import org.testng.annotations.Test;
 

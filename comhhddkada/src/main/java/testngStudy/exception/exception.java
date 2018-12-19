@@ -1,4 +1,4 @@
-package exception;
+package testngStudy.exception;
 
 import org.testng.annotations.Test;
 

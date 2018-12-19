@@ -1,3 +1,5 @@
+package testngStudy;
+
 import org.testng.annotations.*;
 
 /**

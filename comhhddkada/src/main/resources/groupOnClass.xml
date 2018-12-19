@@ -8,9 +8,9 @@
             </run>
         </groups>
         <classes>
-            <class name="classGroups.groupClassOnStu"/>
-            <class name="classGroups.groupClass1OnStu"/>
-            <class name="classGroups.groupClassOnTeacher"/>
+            <class name="testngStudy.classGroups.groupClassOnStu"/>
+            <class name="testngStudy.classGroups.groupClass1OnStu"/>
+            <class name="testngStudy.classGroups.groupClassOnTeacher"/>
         </classes>
     </test>
 

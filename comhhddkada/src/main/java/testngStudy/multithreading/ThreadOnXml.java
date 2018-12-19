@@ -1,4 +1,4 @@
-package multithreading;
+package testngStudy.multithreading;
 
 import org.testng.annotations.Test;
 
