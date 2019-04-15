@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test1" parallel="methods" thread-count="10">
+    <test name="test">
+        <classes>
+            <class name="testCase.Topup2">
+                <methods>
+                    <include name="topupTest"/>
+                    <include name="OrderPreTest"/>
+                    <include name="OrderContinueTest"/>
+                </methods>
+            </class>
+            <class name="testCase.StudyToRed">
+                <methods>
+                    <include name="study"/>
+                    <include name="sign"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="reportLinster.ExtentTestNGIReportListener"/>
+    </listeners>
+</suite>

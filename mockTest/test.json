@@ -1,0 +1,79 @@
+[
+  {
+    "description":"这是我的第一个mock框架实例",
+    "request":{
+      "uri":"/demo"
+    },
+    "response":{
+      "text":"122334"
+    }
+  },
+
+  {
+    "description":"这是一个get请求 不带参数的",
+    "request": {
+      "uri": "/getdemo",
+      "method": "get"
+    },
+    "response":{
+      "text":"这是不带参数的get请求",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+
+  },
+  {
+  "description":"这是一个带参数的get请求",
+  "request": {
+    "uri": "/getbyp",
+    "method": "get",
+    "queries": {
+      "name": "wxw",
+      "age": "18"
+    }
+  },
+  "response":{
+    "text":"王新起真的帅，帅炸了",
+    "headers":{
+      "Content-Type":"text/html;charset=gbk"
+    }
+
+    }
+},
+  {
+    "description":"这是一个带参数的post请求",
+    "request":{
+      "uri":"/postdemo",
+      "method":"post",
+      "forms":{
+        "name":"wxq",
+        "age":"25"
+      }
+    },
+    "response":{
+      "text":"这是一个带post请求的参数",
+      "headers":{
+        "Content-Tpye":"text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description":"这是一个带cookie的请求",
+    "request":{
+      "uri":"/login",
+      "method":"get",
+      "cookies":{
+        "loginCookie":"true"
+      }
+    },
+    "response":{
+      "text":"这是一个带cookie的请求",
+      "headers":{
+        "Content-Type":"text/html;charest=utf-8"
+      }
+    }
+
+  }
+
+]

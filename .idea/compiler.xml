@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="comhhddkada" />
+        <module name="report" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="comhhddkada" target="1.8" />
+      <module name="report" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

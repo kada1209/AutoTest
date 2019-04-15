@@ -10,15 +10,15 @@ import java.util.Date;
  */
 
 public class ThreadsOnAnnotion {
-    @Test(invocationCount = 100,threadPoolSize = 10)
+    @Test(invocationCount = 10,threadPoolSize = 10)
     public void test(){
 
-            System.out.println(new Date().getTime()+"test    "+Thread.currentThread().getId());
+            System.out.println(new Date().getTime()+"  test    "+Thread.currentThread().getId());
 
 
 
     }
-//    @Test(invocationCount = 10,threadPoolSize = 3)
+//    @Test(invocationCount = 10,threadPoolSize = 10)
 //    public void test1(){
 //        System.out.println(new Date().getTime()+"test1     "+Thread.currentThread().getId());
 //    }

@@ -4,7 +4,7 @@
     <test name="parame">
         <classes>
             <!--注意：class属性必须放在parameter属性之上-->
-            <class name="paramer.paramerTest"/>
+            <class name="testngStudy.paramer.paramerTest"/>
             <parameter name="name" value="王新起"/>
             <parameter name="age" value="25"/>
 

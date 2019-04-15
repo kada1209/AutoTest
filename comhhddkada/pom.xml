@@ -38,6 +38,51 @@
           <artifactId>tomcat-embed-core</artifactId>
           <version>8.5.14</version>
       </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.relevantcodes</groupId>
+      <artifactId>extentreports</artifactId>
+      <version>2.41.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.vimalselvam</groupId>
+      <artifactId>testng-extentsreport</artifactId>
+      <version>1.3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.aventstack</groupId>
+      <artifactId>extentreports</artifactId>
+      <version>3.0.6</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.json/json -->
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20180813</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.5.5</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.codehaus.httpcache4j.uribuilder/uribuilder -->
+    <dependency>
+      <groupId>org.codehaus.httpcache4j.uribuilder</groupId>
+      <artifactId>uribuilder</artifactId>
+      <version>2.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.0.0-beta3</version>
+    </dependency>
+
 
   </dependencies>
 
